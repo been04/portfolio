@@ -827,7 +827,7 @@ img{
         margin-bottom: 0;
     }
 
-    #section2 .contant > li .hover{
+    #section2 .contant > li:hover .hover{
         display: none;
     }
 
