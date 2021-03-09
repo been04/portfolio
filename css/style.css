@@ -694,6 +694,10 @@ img{
         display: none;
     }
 
+    #header .logo{
+        width: 50px;
+    }
+
     /********************************section1********************************/
     #section1{
         width: 100%;
@@ -843,16 +847,26 @@ img{
 
 
 @media all and (max-width:600px){
-        /********************************section2********************************/
-        #section2 .contant > li h3{
-            font: 0.5rem;
-        }
 
-        #section2 .contant > li p, #section2 .contant:last-child > li p{
-            display: none;
-        }
+    /********************************header********************************/
+    #header .top1{
+        display: none;
+    }
 
-        #section2 .contant:last-child > li h3{
-            font: 0.5rem;
-        }
+    #header .top2{
+        display: block;
+    }
+
+    /********************************section2********************************/
+    #section2 .contant > li h3{
+        font: 0.5rem;
+    }
+
+    #section2 .contant > li p, #section2 .contant:last-child > li p{
+        display: none;
+    }
+
+    #section2 .contant:last-child > li h3{
+        font: 0.5rem;
+    }
 }
