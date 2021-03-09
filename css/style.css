@@ -770,6 +770,14 @@ img{
         width: calc( ( 100% - 40px ) / 2 );
     }
 
+    #section2 .contant .event , #section2 .contant .kidari {
+        clear: initial;
+    }
+
+    #section2 .contant .trot , #section2 .contant .y_news , #section2 .contant .health {
+        clear: both;
+    }
+
     #section .contant > li:last-child{
         margin-right: 0;
     }
@@ -798,6 +806,10 @@ img{
 
     #section4 ul li:last-child{
         margin-bottom: 0;
+    }
+
+    #section2 .contant > li .hover{
+        display: none;
     }
 
 }
