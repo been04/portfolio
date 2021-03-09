@@ -1,0 +1,334 @@
+.inner{
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+img{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***************************header*****************************/
+#header{
+}
+
+#header .back{
+    width: 100%;
+}
+
+
+/***************************section1*****************************/
+#section1{
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+}
+
+#section1 .back{
+    width: 100%;
+}
+
+#section1 .left{
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    width: calc( ( 100% - 100px ) / 2 );
+}
+
+#section1 .right{
+    position: absolute;
+    bottom: 105px;
+    right: 40px;
+    width: calc( ( 100% - 100px ) / 2 );
+}
+
+#section1 .left li, #section1 .right li{
+    margin-bottom: 25px;
+}
+
+/***************************section2*****************************/
+#section2{
+    margin-top: -10px;
+    width: 100%;
+    background-color:#F6E6DD;
+    padding-bottom: 50px;
+}
+
+#section2 h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'BMDOHYEON';
+    color: #763A19;
+}
+
+#section2 ul{
+    text-align: center;
+}
+
+#section2 ul li{
+    margin-top: 20px;
+    color:#763A19;
+    font-weight: 500;
+}
+
+
+
+/***************************section3*****************************/
+#section3{
+    padding: 20px 0;
+    width: 100%;
+    background-color:#F6E6DD;
+    box-sizing: border-box;
+}
+
+/*#section3 .box{
+    width: calc( 100% - 80px );
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 5px solid #B72725;
+    box-sizing: border-box;
+    border-radius: 15px;
+}*/
+
+#section3 .box{
+    width: calc( 100% - 80px );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section3 .box h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'BMDOHYEON';
+    color: #763A19;
+}
+
+#section3 .box ul{
+    margin-top: 20px;
+    width: calc( 100% - 20px );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section3 .box ul li{
+    display: inline-block;
+    width: calc( ( 100% - 35px) / 3 );
+    text-align: center;
+}
+
+
+#section3 .box ul li:first-child{
+    width: calc( 100% / 3 );
+}
+
+#section3 .box ul li .img{
+    margin: 0 auto;
+    width: calc( 100% - 60px );
+}
+
+#section3 .box ul li p{
+    margin: 10px 0 50px 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/***************************section4*****************************/
+#section4{
+    padding: 60px 0;
+    width: 100%;
+    background-color: #FCF8F8;
+    text-align: center;
+}
+
+#section4 h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'BMDOHYEON';
+    color: #763A19;
+}
+
+#section4 ul{
+    margin-top: 20px;
+}
+
+#section4 ul li{
+    width: calc( 100% - 220px );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section4 ul li input, #section4 ul li textarea{
+    margin-bottom: 25px;
+    padding: 15px;
+    width: calc( 100% - 30px );
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 10px 5px 5px #E3E3E3;
+}
+
+#section4 ul li textarea{
+    resize: vertical;
+}
+
+#section4 ul li input::placeholder, #section4 ul li textarea::placeholder{
+    color: #B5B5B5;
+}
+
+#section4 .agree{
+    width: calc( 100% - 220px );
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section4 .agree input{
+}
+
+#section4 .agree label{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+#section4 .agree .more{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #000;
+    cursor: pointer;
+}
+
+#section4 button{
+    margin-top: 50px;
+    padding: 20px;
+    width: calc( 100% - 400px );
+    background-color:#763A19;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+/***************************footer*****************************/
+#footer{
+    width: calc( 100% - 20px );
+    padding: 25px 0 25px 20px;
+    background-color: #F1F1F1;
+}
+
+#footer ul li{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    border-right: 1px solid #000;
+}
+
+#footer ul li:last-child{
+    margin-bottom: 0;
+}
+
+#footer ul li:nth-child(4), #footer ul li:nth-child(6), #footer ul li:nth-child(7){
+    border: 0;
+}
+/***************************message*****************************/
+.message{
+    display: none;
+    position: fixed;
+    top: 100px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 99999999999999999999999;
+    margin-bottom: 50px;
+    max-width: 750px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.message h1{
+    padding: 60px 20px 20px 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'BMDOHYEON';
+}
+
+.message .close{
+    margin: 20px 20px 0 0;
+    float: right;
+    width: 20px;
+    cursor: pointer;
+}
+
+/***************************message*****************************/
+.black_back{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5555555;
+    width: 100%;
+    height: 5280px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width:586px) {
+
+    /***************************header*****************************/
+    #header{
+        margin-top: 40px;
+    }
+
+    /***************************section3*****************************/
+    #section3{}
+
+    #section3 .box ul li p{
+        font-size: 0.9rem;
+    }
+
+    /***************************section4*****************************/
+    #section4 ul li{
+        width: calc( 100% - 40px );
+    }
+
+    #section4 ul li input, #section4 ul li textarea{
+        font-size: 1.2rem;
+    }
+
+    #section4 .agree{
+        width: calc( 100% - 40px );
+    }
+    
+    #section4 .agree label{
+        font-size: 0.9rem;
+    }
+    
+    #section4 .agree .more{
+        font-size: 0.9rem;
+    }
+    
+    #section4 button{
+        padding: 15px;
+        width: calc( 100% - 100px );
+    }
+    
+
+}

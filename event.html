@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기가마트</title>
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="cssgiga1_style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="inner">
+        <header id="header">
+            <div class="back">
+                <img src="image/main_banner.png" alt="">
+            </div>
+        </header>
+
+        <section id="section1">
+            <div class="back">
+                <img src="image/sub_banner.png" alt="">
+            </div>
+            <ul class="left">
+                <li>
+                    <a href="https://gigamarket.uriweb.kr/32/?q=YToxO
+                    ntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt
+                    9&bmode=view&idx=5580683&t=board"><img src="image/a.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://blog.naver.com/phoner3333
+                    /222189345280"><img src="image/c.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://pf.kakao.com/_ndxolK"><img src="image/e.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://gigamarket.uriweb.kr/32/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt
+                    9&bmode=view&idx=5549736&t=board"><img src="image/g.png" alt=""></a>
+                </li>
+            </ul>
+            <ul class="right">
+                <li>
+                    <a href="https://blog.naver.com/phoner3333
+                    /222188148875"><img src="image/b.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://blog.naver.com/phoner3333
+                    /222189345280"><img src="image/d.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://blog.naver.com/phoner3333
+                    /222177966710"><img src="image/f.png" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="section2">
+            <h1>※가입신청 안내사항※</h1>
+            <ul>
+                <li>
+                    ·기가마트는 방송통신위원회 사은품 가이드라인을 준수하고 있습니다.</br>
+                    (위반 시 건당 과태료 1백만원 부과)
+                </li>
+                <li>
+                    ·가입신청자의 기존 서비스 이용 약관에 따라 제공되는 사은품에 차이가 발생할 수 있습니다.
+                </li>
+                <li>
+                    ·미성년자 및 신용불량자는 신청이 불가합니다.
+                </li>
+            </ul>
+        </section>
+
+        <section id="section3">
+            <div class="box">
+                <h1>가입 신청 불가</h1>
+                <ul>
+                    <li>
+                        <div class="img"><img src="image/icon1.png" alt=""></div>
+                        <p>가입한지 1년 미만</p>
+                    </li>
+                    <li>
+                        <div class="img"><img src="image/icon2.png" alt=""></div>
+                        <p>신용불량자</p>
+                    </li>
+                    <li>
+                        <div class="img"><img src="image/icon3.png" alt=""></div>
+                        <p>통신요금 연체 중</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section4">
+            <h1>가입 상담 신청서</h1>
+            <ul>
+                <li>
+                    <input type="text" placeholder="이름">
+                </li>
+                <li>
+                    <input type="text" placeholder="연락처">
+                </li>
+                <li>
+                    <textarea name="content" placeholder="상담 내용" rows="5"></textarea>
+                </li>
+            </ul>
+            <div class="agree">
+                <input type="checkbox" id="cb1" name="checkbox"><label for="cb1">개인 정보 수집 및 활용 동의</label>
+                <span class="more">자세히 보기</span>
+            </div>
+            <button>신청 하기</button>
+        </section>
+        
+        <footer id="footer">
+            <ul>
+                <li>주식회사 어컴퍼니</li>
+                <li>대표자명 : 김민흠</li>
+                <li>사업자등록번호 : 6218701637</li>
+                <li>이메일 : giga-mart@naver.com</li>
+                <li>주소 : 부산광역시 기장군 정관읍 정관로 578, 105호</li>
+                <li>연락처 : 1600-8088</li>
+                <li>Copyright © 2020기가마트All rights reserved.</li>
+            </ul>
+        </footer>
+
+        <div class="message">
+            <div class="close"><img src="image/close.png" alt=""></div>
+            <h1>개인 정보 수집 및 활용 동의서</h1>
+            <p>개인 정보 수집 및 활용 동의서를 써주세요.</p>
+        </div>
+        <div class="black_back"></div>
+
+        <script>
+            $( '.more' ).click( function() {
+                $( '.black_back' ).css( 'display', 'block' );
+                $( '.message' ).css( 'display', 'block' );
+            } );
+            
+            $( '.close' ).click( function() {
+                $( '.black_back' ).css( 'display', 'none' );
+                $( '.message' ).css( 'display', 'none' );
+			} );
+        </script>
+        
+    </div>
+</body>
+</html>

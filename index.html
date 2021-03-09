@@ -1,0 +1,744 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<title>Lee Hyunbeen Portfolio</title>
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+   <![endif]-->
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+  function fnMove(seq){
+      var offset = $("#menu" + seq).offset();
+      $('html, body').animate({scrollTop : offset.top}, 400);
+  }
+</script>
+
+</head>
+
+<body >
+<div id="wrap">
+  <div id="menu">
+    <ul>
+      <li onclick="fnMove('1')">
+        <div class="main_txt">
+          <h1>Home</h1>
+          <span class="box1"></span>
+        </div>
+        <div class="sub_txt">
+          <p>Designer.Hyunbeen Lee</p>
+          <span class="box2"></span>
+        </div>
+      </li>
+      <li onclick="fnMove('2')">
+        <div class="main_txt">
+          <h1>About Me</h1>
+          <span class="box1"></span>
+        </div>
+        <div class="sub_txt">
+          <p>About work experience</p>
+          <span class="box2"></span>
+        </div>
+      </li>
+      <li onclick="fnMove('3')">
+        <div class="main_txt">
+          <h1>UX/UI Design</h1>
+          <span class="box1"></span>
+        </div>
+        <div class="sub_txt">
+          <p>Web/App</p>
+          <span class="box2"></span>
+        </div>
+      </li>
+      <li onclick="fnMove('4')">
+        <div class="main_txt">
+          <h1>Visual Design</h1>
+          <span class="box1"></span>
+        </div>
+        <div class="sub_txt">
+          <p>Branding/Logo</p>
+          <span class="box2"></span>
+        </div>
+      </li>
+      <li onclick="fnMove('5')">
+        <div class="main_txt">
+          <h1>Contact Me</h1>
+          <span class="box1"></span>
+        </div>
+      </li>
+    </ul>
+    <div class="designby"><img src="image/designby.png" alt=""></div>
+  </div>
+
+
+  <header id="header">
+    <div id="menu1">
+      <div class="back"><img src="image/back.png" alt=""></div>
+      <div class="logo"><img src="image/logo.png" alt=""></div>
+      <div class="profile">
+        <div class="img"><img src="image/me.png" alt=""></div>
+        <h1>Lee Hyunbeen</h1>
+        <p>Web/App Designer</p>
+      </div>
+      <div class="top1"><img src="image/top1.png" alt=""></div>
+      <div class="top2"><img src="image/top2.png" alt=""></div>
+    </div>
+  </header>
+
+
+  <section id="section1">
+    <ul id="menu2">
+      <li>
+        <div class="img"><img src="image/sec1.png" alt=""></div>
+        <div class="txt">
+          <p>여태까지 작업했던 웹/앱 디자인 결과물입니다.
+            여태까지 작업했던 웹/앱 디자인 결과물입니다.
+            여태까지 작업했던 웹/앱 디자인 결과물입니다.</p>
+        </div>
+      </li>
+      <li>
+        <h1>K E Y W O R K</h1>
+        <ul class="borderbox">
+          <div class="inner">
+            <li><a href="#">1996</a></li>
+            <li><a href="#">FEMALE</a></li>
+            <li><a href="#">BUSAN</a></li>
+            <li><a href="#">WEB DESIGN</a></li>
+            <li><a href="#">CODING</a></li>
+            <li><a href="#">PUBLISHING</a></li>
+            <li><a href="#">BRANDING</a></li>
+            <li><a href="#">ETC</a></li>
+          </div>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="section2">
+    <div class="sec_in">
+      <!--web,app-->
+      <div id="menu3" class="ttl">
+        <h1>UX/UI Design</h1>
+        <p>여태까지 작업했던 웹/앱 디자인 결과물입니다.</p>
+      </div>
+      <!--<ul class="btn">
+        <li>All</li>
+        <li>Web</li>
+        <li>App</li>
+      </ul>-->
+      <ul class="contant">
+        <li class="luck">
+          <div class="img"><img src="image/luck_s.jpg" alt=""></div>
+          <div class="hover">
+            <h3>소행운</h3>
+            <p>웹,앱 디자인/퍼블리싱 100%</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="giga">
+          <div class="img"><img src="image/giga_s.png" alt=""></div>
+          <div class="hover">
+            <h3>기가마트</h3>
+            <p>웹 디자인/퍼블리싱 100%</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="trot">
+          <div class="img"><img src="image/trot_s.jpg" alt=""></div>
+          <div class="hover">
+            <h3>트로트 빅히트</h3>
+            <p>앱 디자인/퍼블리싱 100%</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="event">
+          <div class="img"><img src="image/event_s.png" alt=""></div>
+          <div class="hover">
+            <h3>기가마트 이벤트 페이지</h3>
+            <p>웹 디자인/퍼블리싱 100%</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="y_news">
+          <div class="img"><img src="image/y_news_s.png" alt=""></div>
+          <div class="hover">
+            <h3>유튜버 뉴스</h3>
+            <p>웹 디자인/wix 사용</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="cube_c">
+          <div class="img"><img src="image/cube_c.png" alt=""></div>
+          <div class="hover">
+            <h3>큐브 컴퍼니</h3>
+            <p>웹 디자인/wix 사용</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="kidari">
+          <div class="img"><img src="image/kidari_s.png" alt=""></div>
+          <div class="hover">
+            <h3>키다리 ENT</h3>
+            <p>웹 디자인/퍼블리싱 100%</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="star">
+          <div class="img"><img src="image/star_s.png" alt=""></div>
+          <div class="hover">
+            <h3>스타피부과</h3>
+            <p>웹 디자인/퍼블리싱 100%</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="willog">
+          <div class="img"><img src="image/willog_s.jpg" alt=""></div>
+          <div class="hover">
+            <h3>Willog</h3>
+            <p>앱 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="fyn">
+          <div class="img"><img src="image/fyn_s.jpg" alt=""></div>
+          <div class="hover">
+            <h3>fyn</h3>
+            <p>앱 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!--visual, logo-->
+      <div id="menu4" class="ttl">
+        <h1>Visual Design</h1>
+        <p>여태까지 작업했던 웹/앱 디자인 결과물입니다.</p>
+      </div>
+      <!--<ul class="btn">
+        <li>All</li>
+        <li>Web</li>
+        <li>App</li>
+      </ul>-->
+      <ul class="contant">
+        <li class="new_m">
+          <div class="img"><img src="image/new_m_s.png" alt=""></div>
+          <div class="hover">
+            <h3>신혼 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="fast">
+          <div class="img"><img src="image/fast_s.png" alt=""></div>
+          <div class="hover">
+            <h3>인터넷 속도</br> 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="disney">
+          <div class="img"><img src="image/disney_s.png" alt=""></div>
+          <div class="hover">
+            <h3>디즈니 영화 추천</br> 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="love">
+          <div class="img"><img src="image/love_s.png" alt=""></div>
+          <div class="hover">
+            <h3>연애의 과학 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="g_banner">
+          <div class="img"><img src="image/g_banner_s.png" alt=""></div>
+          <div class="hover">
+            <h3>기가마트 광고배너</h3>
+            <p>광고배너 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="ol_banner">
+          <div class="img"><img src="image/ol_banner_s.png" alt=""></div>
+          <div class="hover">
+            <h3>오버워치/롬앤</br> 광고 배너</h3>
+            <p>광고배너 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="play">
+          <div class="img"><img src="image/play_s.png" alt=""></div>
+          <div class="hover">
+            <h3>브랜드 윷놀이</h3>
+            <p>브랜딩 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="sang">
+          <div class="img"><img src="image/sang_s.png" alt=""></div>
+          <div class="hover">
+            <h3>브랜드 슬기로운 생</h3>
+            <p>브랜딩 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="carelab">
+          <div class="img"><img src="image/carelab_s.png" alt=""></div>
+          <div class="hover">
+            <h3>carelab</h3>
+            <p>로고 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="flower">
+          <div class="img"><img src="image/flower_s.png" alt=""></div>
+          <div class="hover">
+            <h3>꽃들의 전쟁</h3>
+            <p>로고 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="health">
+          <div class="img"><img src="image/health_s.png" alt=""></div>
+          <div class="hover">
+            <h3>헬스토랑</h3>
+            <p>로고 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+        <li class="clear">
+          <div class="img"><img src="image/clear_s.png" alt=""></div>
+          <div class="hover">
+            <h3>씨끄라</h3>
+            <p>로고 디자인</p>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="section3">
+    <div id="menu5">
+      <div class="img"><img src="image/sec3.png" alt=""></div>
+      <ul class="slider">
+        <li><img src="image/design.png" alt=""></li>
+        <li><img src="image/code.png" alt=""></li>
+      </ul>
+      <div class="back"><img src="image/sec_back.png" alt=""></div>
+    </div>
+  </section>
+
+  <section id="section4">
+    <div class="inner">
+      <h1>Contact me</h1>
+      <ul>
+        <li>
+          <div class="img"><img src="image/mail.png" alt=""></div>
+          <h3>E - mail</h3>
+          <p>been_04@naver.com</p>
+        </li>
+        <li>
+          <div class="img"><img src="image/call.png" alt=""></div>
+          <h3>Mobile</h3>
+          <p>010.5616.6023</p>
+        </li>
+        <li>
+          <div class="img"><img src="image/instar.png" alt=""></div>
+          <h3>instargram</h3>
+          <p>been_hl</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p>Designer Lee Hyunbeen</p>
+  </footer>
+
+
+  <!--concept page-->
+  <div id="up">
+    <div class="modal">
+      <div class="x"><img src="image/x.png" alt=""></div>
+      <ul class="uxui">
+        <li class="luck">
+          <div class="img"><img src="image/luck.jpg" alt=""></div>
+          <div class="txt">
+            <h3>소행운</h3>
+            <p>소행운 운세 어플 디자인</p>
+            <a href="./luck.html" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 9일 ~ 11일</li>
+            <li>· 기획, 디자인, 퍼블리싱 100%</li>
+            <li>· 2020년 11월 2일</li>
+          </ul>
+        </li>
+        <li class="giga">
+          <div class="img"><img src="image/giga.jpg" alt=""></div>
+          <div class="txt">
+            <h3>기가마트 홈페이지</h3>
+            <p>기가마트 반응형 웹페이지</p>
+            <a href="https://gigamarket.uriweb.kr/" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 반응형</li>
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 4일 ~ 5일</li>
+            <li>· 기획, 디자인 100% / 솔루션 사용</li>
+            <li>· 2020년 12월 11일</li>
+          </ul>
+        </li>
+        <li class="trot">
+          <div class="img"><img src="image/trot.jpg" alt=""></div>
+          <div class="txt">
+            <h3>트로트 빅히트</h3>
+            <p>트로트 플레이어 어플</p>
+            <a href="./trot.html" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 음악 어플</li>
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 6일 ~ 7일</li>
+            <li>· 기획, 디자인, 퍼블리싱 100%</li>
+            <li>· 2020년 8월 6일</li>
+          </ul>
+        </li>
+        <li class="event">
+          <div class="img"><img src="image/event.jpg" alt=""></div>
+          <div class="txt">
+            <h3>기가마트 이벤트 페이지</h3>
+            <p>기가마트 이벤트 상세 페이지</p>
+            <a href="./event.html" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 반응형</li>
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 3일 ~ 4일</li>
+            <li>· 기획, 디자인, 퍼블리싱 100%</li>
+            <li>· 2020년 12월 23일</li>
+          </ul>
+        </li>
+        <li class="y_news">
+          <div class="img"><img src="image/y_news.jpg" alt=""></div>
+          <div class="txt">
+            <h3>유튜버 뉴스</h3>
+            <p>유튜버 관련 이슈 업로드 홈페이지</p>
+            <a href="https://cubecompany.wixsite.com/youtubenews" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 반응형</li>
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 7일 ~ 10일</li>
+            <li>· 기획, 디자인 100% / wix 사용</li>
+            <li>· 2020년 2월 16일</li>
+          </ul>
+        </li>
+        <li class="cube_c">
+          <div class="img"><img src="image/cube.jpg" alt=""></div>
+          <div class="txt">
+            <h3>큐브컴퍼니</h3>
+            <p>큐브 컴퍼니 회사 웹페이지</p>
+            <a href="https://cubecompany.wixsite.com/cubecompany" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 반응형</li>
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 8일 ~ 10일</li>
+            <li>· 기획, 디자인 100% / wix 사용</li>
+            <li>· 2020년 1월 24일</li>
+          </ul>
+        </li>
+        <li class="kidari">
+          <div class="img"><img src="image/kidari.jpg" alt=""></div>
+          <div class="txt">
+            <h3>키다리 ENT</h3>
+            <p>키다리 ENT 반응형 웹페이지</p>
+            <a href="https://been04.github.io/kidarient/index.html" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 반응형</li>
+            <li>· 개인프로젝트</li>
+            <li>· 제작기간 : 7일 ~ 10일</li>
+            <li>· 기획, 디자인, 퍼블리싱 100%</li>
+            <li>· 2020년 8월 6일</li>
+          </ul>
+        </li>
+        <li class="star">
+          <div class="img"><img src="image/star.jpg" alt=""></div>
+          <div class="txt">
+            <h3>스타피부과</h3>
+            <p>스타피부과 반응형 웹페이지</p>
+            <!--<a href="#">Go to Site</a>-->
+          </div>
+          <ul class="list">
+            <li>· 개인프로젝트</li>
+            <li>· 제작기간 : 10일 ~ 12일</li>
+            <li>· 기획, 디자인, 퍼블리싱 100%</li>
+            <li>· 2020년 7월 3일</li>
+          </ul>
+        </li>
+        <li class="willog">
+          <div class="img"><img src="image/willog.jpg" alt=""></div>
+          <div class="txt">
+            <h3>Willog</h3>
+            <p>운동 가이드 어플</p>
+            <a href="./willog.html" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 운동 가이드 어플</li>
+            <li>· 개인프로젝트</li>
+            <li>· 제작기간 : 2일 ~ 4일</li>
+            <li>· 기획 60%, 디자인 100%</li>
+            <li>· 2020년 5월 4일</li>
+          </ul>
+        </li>
+        <li class="fyn">
+          <div class="img"><img src="image/fyn.jpg" alt=""></div>
+          <div class="txt">
+            <h3>fyn</h3>
+            <p>의약품 관련 어플</p>
+            <a href="./fyn.html" target="_blank">Go to Site</a>
+          </div>
+          <ul class="list">
+            <li>· 의약품 관련 어플</li>
+            <li>· 회사 프로젝트</li>
+            <li>· 제작기간 : 15일 ~ 25일</li>
+            <li>· 디자인 100%</li>
+            <li>· 2020년 1월 25일</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="visual">
+        <li class="new_m">
+          <ul class="img">
+            <li><img src="image/new_m1.png" alt=""></li>
+            <li><img src="image/new_m2.png" alt=""></li>
+            <li><img src="image/new_m3.png" alt=""></li>
+            <li><img src="image/new_m4.png" alt=""></li>
+            <li><img src="image/new_m5.png" alt=""></li>
+            <li><img src="image/new_m6.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>신혼 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+          </div>
+        </li>
+        <li class="fast">
+          <ul class="img">
+            <li><img src="image/fast1.png" alt=""></li>
+            <li><img src="image/fast2.png" alt=""></li>
+            <li><img src="image/fast3.png" alt=""></li>
+            <li><img src="image/fast4.png" alt=""></li>
+            <li><img src="image/fast5.png" alt=""></li>
+            <li><img src="image/fast6.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>인터넷 속도 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+          </div>
+        </li>
+        <li class="disney">
+          <ul class="img">
+            <li><img src="image/disney1.png" alt=""></li>
+            <li><img src="image/disney2.png" alt=""></li>
+            <li><img src="image/disney3.png" alt=""></li>
+            <li><img src="image/disney4.png" alt=""></li>
+            <li><img src="image/disney5.png" alt=""></li>
+            <li><img src="image/disney6.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>디즈니 영화 추천 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+          </div>
+        </li>
+        <li class="love">
+          <ul class="img">
+            <li><img src="image/love1.jpg" alt=""></li>
+            <li><img src="image/love2.jpg" alt=""></li>
+            <li><img src="image/love3.jpg" alt=""></li>
+            <li><img src="image/love4.jpg" alt=""></li>
+            <li><img src="image/love5.jpg" alt=""></li>
+            <li><img src="image/love6.jpg" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>연애의 과학 카드 뉴스</h3>
+            <p>카드 뉴스 디자인</p>
+          </div>
+        </li>
+        <li class="g_banner">
+          <ul class="img">
+            <li><img src="image/g_banner1.png" alt=""></li>
+            <li><img src="image/g_banner2.jpg" alt=""></li>
+            <li><img src="image/g_banner3.png" alt=""></li>
+            <li><img src="image/g_banner4.png" alt=""></li>
+            <li><img src="image/g_banner5.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>기가마트 광고배너</h3>
+            <p>광고배너 디자인</p>
+          </div>
+        </li>
+        <li class="ol_banner">
+          <ul class="img">
+            <li><img src="image/ol_banner1.png" alt=""></li>
+            <li><img src="image/ol_banner2.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>오버워치, 롬앤 광고배너</h3>
+            <p>광고배너 디자인</p>
+          </div>
+        </li>
+        <li class="play">
+          <ul class="img">
+            <li><img src="image/play1.png" alt=""></li>
+            <li><img src="image/play2.png" alt=""></li>
+            <li><img src="image/play3.png" alt=""></li>
+            <li><img src="image/play4.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>윷놀이</h3>
+            <p>브랜딩 디자인</p>
+          </div>
+        </li>
+        <li class="sang">
+          <ul class="img">
+            <li><img src="image/sang1.png" alt=""></li>
+            <li><img src="image/sang2.png" alt=""></li>
+            <li><img src="image/sang3.png" alt=""></li>
+            <li><img src="image/sang4.png" alt=""></li>
+          </ul>
+          <div class="txt">
+            <h3>슬기로운 생</h3>
+            <p>브랜딩 디자인</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

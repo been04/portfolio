@@ -1,0 +1,819 @@
+.inner{
+    margin: 0 auto;
+    width: 60%;
+}
+
+img{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/********************************menu********************************/
+#menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999999999999999999999;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#menu ul{
+    margin: 200px 0 0 30px;
+}
+
+#menu ul li{
+    margin-bottom: 40px;
+}
+
+#menu ul li h1{
+    margin-right: 15px;
+    font-family: 'yg-jalnan';
+    font-size: 25px;
+}
+
+#menu ul li p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#menu .designby{
+    margin: 250px 0 0 30px;
+    width: 250px;
+}
+
+#menu .main_txt{
+    position: relative;
+    display: inline-block;
+}
+
+#menu .sub_txt{
+    position: relative;
+    display: inline-block;
+}
+
+#menu .box1{
+    position: absolute;
+    top: 25px;
+    left: -5px;
+    z-index: -10;
+    display: inline-block;
+    width: 0px;
+    height: 15px;
+    background-color: #FFE6E6;
+}
+
+#menu .box2{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: -10;
+    display: inline-block;
+    width: 0px;
+    height: 1px;
+    background-color: #C25454;
+}
+
+#menu ul li:hover{
+    cursor: pointer;
+}
+
+#menu ul li:hover h1, #menu ul li:hover p{
+    color: #C25454;
+}
+
+#menu ul li:hover .box1{
+    animation: box_line1 1s ease 1 both;
+}
+
+#menu ul li:hover .box2{
+    animation: box_line2 1s ease 1 both;
+}
+
+@keyframes box_line1{
+    0% {
+        background: #FFE6E6;
+        width: 0px;
+    }
+    100% {
+        background: #FFE6E6;
+        width: 90px;
+    }
+}
+
+@keyframes box_line2{
+    0% {
+        background: #C25454;
+        width: 0px;
+    }
+    100% {
+        background: #C25454;
+        width: 50px;
+    }
+}
+
+
+/********************************header********************************/
+#header{
+    position: relative;
+    width: 100%;
+}
+
+#header .back{
+    width: 100%;
+}
+
+#header .logo{
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    width: 3%;
+}
+
+#header .profile{}
+
+#header .profile .img{
+    position: absolute;
+    top: 25%;
+    left: calc( 50% - 280px );
+    width: 12%;
+}
+
+#header .profile h1{
+    position: absolute;
+    top: 53%;
+    left: calc( 50% - 320px );
+    font-family: 'yg-jalnan';
+    font-size: 2.5rem;
+}
+
+#header .profile p{
+    position: absolute;
+    top: 60%;
+    left: calc( 50% - 250px );
+    font-size: 1.2rem;
+}
+
+#header .top1{
+    display: none;
+    width: 100%;
+}
+
+#header .top2{
+    display: none;
+    width: 100%;
+}
+
+
+/********************************section1********************************/
+
+#section1{
+    width: 80%;
+}
+
+#section1 ul{}
+
+#section1 ul > li{
+    float: left;
+    width: 50%;
+}
+
+#section1 ul > li .txt{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 62%;
+}
+
+#section1 ul > li:last-child{
+    padding: 120px 0;
+    background-color: #C25454;
+}
+
+#section1 .borderbox{}
+
+#section1 ul li h1{
+    text-align: center;
+    font-family: 'yg-jalnan';
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#section1 .borderbox{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section1 .borderbox li{
+    display: inline-block;
+    margin: 0 15px 25px 0;
+}
+
+#section1 .borderbox li a{
+    padding: 5px 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: auto;
+    font-weight: 300;
+}
+
+#section1::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+
+/********************************section2********************************/
+#section2{
+    width: 80%;
+}
+
+#section2 .sec_in{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#section2 .ttl{
+    float: left;
+    padding-top: 120px;
+}
+
+#section2 .ttl h1{
+    font-size: 2rem;
+    font-family: 'yg-jalnan';
+}
+
+#section2 .ttl p{
+    font-weight: 300;
+}
+
+#section2 .btn{
+    float: right;
+    padding-top: 120px;
+}
+
+
+#section2 .btn li{
+    float: left;
+    width: 195px;
+    padding: 10px 0;
+    border: 1px solid #C25454;
+    background-color: #FCFCFC;
+    text-align: center;
+    cursor: pointer;
+}
+
+#section2 .btn > li:first-child{
+    background-color:#C25454;
+    color: #fff;
+}
+
+
+#section2 .contant{
+    padding-top: 50px;
+    display: block;
+    clear: both;
+    content: '';
+}
+
+#section2 .contant > li{
+    position: relative;
+    float: left;
+    margin: 0 20px 20px 0;
+    width: calc( ( 100% - 70px ) / 3 );
+    cursor: pointer;
+}
+
+#section2 .contant .event , #section2 .contant .kidari {
+    clear: both;
+}
+
+
+#section2 .contant .hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation: back 1s ease 1 both;
+}
+
+#section2 .contant > li:hover .hover{
+    display: block;
+}
+
+#section2 .contant .hover h3{
+    margin-top: 100px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'yg-jalnan';
+}
+
+#section2 .contant .hover p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+#section2 .contant .hover div span:nth-child(1){
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 5555555;
+    height: 3px;
+    animation: move_line1 1s ease 1 both;
+}
+
+
+#section2 .contant .hover div span:nth-child(3){
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 5555555;
+    width: 3px;
+    animation: move_line2 1s ease 1 both;
+}
+
+
+
+@keyframes move_line1{
+    0% {
+        background: #fff;
+        width: 0px;
+    }
+    100% {
+        background: #fff;
+        width: 175px;
+    }
+}
+
+@keyframes move_line2{
+    0% {
+        background: #fff;
+        height: 0px;
+    }
+    100% {
+        background: #fff;
+        height: 115px;
+    }
+}
+
+@keyframes back{
+    0% {
+        background: #000;
+        opacity: 0;
+    }
+    100% {
+        background: #000;
+        opacity: 0.75;
+    }
+}
+
+#section2 .ttl{
+    clear: both;
+}
+
+#section2 .contant:last-child > li{
+    position: relative;
+    float: left;
+    margin: 0 20px 20px 0;
+    width: calc( ( 100% - 90px ) / 4 );
+}
+
+#section2 .contant:last-child .hover h3{
+    margin-top: 60px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'yg-jalnan';
+}
+
+
+
+/********************************section3********************************/
+#section3{
+    clear: both;
+    position: relative;
+    padding-top: 400px;
+    width: 80%;
+}
+
+#section3 .img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5555555;
+    margin-top: 170px;
+    display: inline-block;
+    width: 50%;
+}
+
+#section3 .slider{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 180px;
+    display: inline-block;
+    width: 49%;
+    height: 170px;
+    overflow: hidden;
+    /*transition-property:transform;
+    transition-duration:2.5s;*/
+}
+
+#section3 .slider li{
+    margin: 0 auto;
+    padding-top: 30px;
+    animation: tran 8s 1s infinite alternate;;
+}
+
+@keyframes tran{
+    0% {
+        transform: translateY(0);
+    }
+
+    5% {
+        transform: translateY(0);
+    }
+
+    45%{
+        transform: translateY(-180px);
+    }
+
+    65%{
+        transform: translateY(-180px);
+    }
+
+    95% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+#section3 .slider li:first-child{
+    width: 55%;
+}
+
+#section3 .slider li:last-child{
+    width: 45%;
+}
+
+
+#section3 .back{
+    width: 100%;
+}
+
+
+/********************************section4********************************/
+#section4{
+    margin: 60px 0;
+    width: 80%;
+}
+
+#section4 h1{
+    font-size: 2.5rem;
+    font-family: 'yg-jalnan';
+    text-align: center;
+    color: #C25454;
+}
+
+#section4 ul{
+    margin-top: 40px;
+}
+
+#section4 ul li{
+    display: inline-block;
+    width: calc( ( 100% - 10px ) / 3 );
+    text-align: center;
+}
+
+#section4 ul li .img{
+    margin: 0 auto;
+    width: 35px;
+}
+
+#section4 ul li h3{
+    margin-top: 20px;
+    font-family: 'yg-jalnan';
+    font-size: 1.2rem;
+}
+
+
+/********************************footer********************************/
+#footer{
+    padding: 15px 0;
+    width: 80%;
+    text-align: center;
+    background-color: #000;
+}
+
+#footer p{
+    color: #fff;
+    font-weight: 100;
+}
+
+
+
+/********************************concept page********************************/
+#up{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#up .modal{
+    position: fixed;
+    top: 60px;
+    left: 10%;
+    z-index: 9999999999;
+    width: 60%;
+    background-color: #fff;
+}
+
+#up .modal .x{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*uxui*/
+#up .modal .uxui{
+    margin: 80px 0;
+}
+
+#up .modal .uxui > li{
+    display: none;
+}
+
+#up .modal .uxui > li .img{
+    margin: 0 auto;
+    width: 65%;
+}
+
+#up .modal .uxui > li .txt{
+    margin: 50px 0 0 17%;
+    display: inline-block;
+}
+
+#up .modal .uxui > li .txt h3{
+    font-family: 'yg-jalnan';
+    font-size: 1.5rem;
+}
+
+#up .modal .uxui > li .txt p{
+    font-size: 0.9rem;
+}
+
+#up .modal .uxui > li .txt a{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 35px;
+    font-family: 'yg-jalnan';
+    letter-spacing: 1px;
+    background-color: #C25454;
+    border-radius: 40px;
+    color: #fff;
+}
+
+#up .modal .uxui > li .list{
+    margin-left: 20%;
+    display: inline-block;
+}
+
+/*visual*/
+#up .modal .visual{
+    margin: 120px 0;
+}
+
+#up .modal .visual > li{
+    display: none;
+}
+
+#up .modal .visual > li:nth-child(6) .img li{
+    width: 100%;
+}
+
+#up .modal .visual > li .img{
+    margin: 0 auto;
+    width: 65%;
+}
+
+#up .modal .visual > li .img li:nth-child(3n){
+    margin-right: 0;
+}
+
+#up .modal .visual > li .img li{
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    width: calc( ( 100% - 30px ) / 3 );
+}
+
+#up .modal .visual > li .txt{
+    margin: 50px 0 0 17%;
+    display: inline-block;
+}
+
+#up .modal .visual > li .txt h3{
+    font-family: 'yg-jalnan';
+    font-size: 1.5rem;
+}
+
+#up .modal .visual > li .txt p{
+    font-size: 0.9rem;
+}
+
+#up .modal .visual > li a{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 35px;
+    font-family: 'yg-jalnan';
+    letter-spacing: 1px;
+    background-color: #C25454;
+    border-radius: 40px;
+    color: #fff;
+
+}
+
+
+
+
+@media screen and (max-width:1750px){
+    #menu .main_txt{
+        display: block;
+    }
+    
+    #menu .sub_txt{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:1520px){
+    /********************************menu********************************/
+    #menu{
+        display: none;
+    }
+
+    /********************************header********************************/
+    #header .top1{
+        display: block;
+    }
+
+    #header .back{
+        display: none;
+    }
+
+    #header .profile .img{
+        display: none;
+    }
+
+    #header .profile h1{
+        display: none;
+    }
+    
+    #header .profile p{
+        display: none;
+    }
+
+    /********************************section1********************************/
+    #section1{
+        width: 100%;
+    }
+
+    /********************************section2********************************/
+    #section2{
+        width: 100%;
+    }
+
+    /********************************section3********************************/
+    #section3{
+        width: 100%;
+    }
+
+    /********************************section4********************************/
+    #section4{
+        width: 100%;
+    }
+
+    /********************************footer********************************/
+    #footer{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+    /********************************section1********************************/
+    #section1 ul > li:last-child{
+        padding: 60px 0;
+    }
+    
+    #section1 .borderbox li{
+        margin: 0 10px 15px 0;
+        font-size: 0.8rem;
+    }
+
+    /********************************section2********************************/
+    #section2 .contant .hover h3{
+        margin-top: 60px;
+    }
+
+    /********************************section3********************************/
+    #section3{
+        display: none;
+    }
+
+    /********************************section4********************************/
+    #section4{
+        clear: both;
+        padding-top: 30px;
+    }
+}
+
+
+@media all and (max-width:768px){
+    /********************************section1********************************/
+    #section1 ul > li{
+        width: 100%;
+    }
+
+    #section1 ul > li:last-child{
+        margin-top: 60px;
+    }
+
+
+    /********************************section2********************************/
+    #section2 .sec_in{
+        width: 95%;
+    }
+
+    #section2 .contant > li{
+        width: calc( ( 100% - 40px ) / 2 );
+    }
+
+    #section .contant > li:last-child{
+        margin-right: 0;
+    }
+
+    #section2 .contant > li h3{
+        padding: 0 25px;
+        font: 0.9rem;
+    }
+
+    #section2 .contant:last-child > li{
+        width: calc( ( 100% - 50px ) / 2 );
+    }
+
+    #section2 .contant:last-child > li h3{
+        font: 0.9rem;
+    }
+
+    #section .contant:last-child > li:last-child{
+        margin-right: 0;
+    }
+
+    #section4 ul li{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    #section4 ul li:last-child{
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media all and (max-width:600px){
+        /********************************section2********************************/
+        #section2 .contant > li h3{
+            font: 0.5rem;
+        }
+
+        #section2 .contant > li p, #section2 .contant:last-child > li p{
+            display: none;
+        }
+
+        #section2 .contant:last-child > li h3{
+            font: 0.5rem;
+        }
+}
