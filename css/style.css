@@ -719,6 +719,15 @@ img{
         width: 100%;
     }
 
+    /********************************concept page********************************/
+    #up{
+        width: 100%;
+    }
+
+    #up .modal{
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width:1200px){
@@ -747,6 +756,8 @@ img{
         clear: both;
         padding-top: 30px;
     }
+
+
 }
 
 
@@ -811,6 +822,22 @@ img{
     #section2 .contant > li .hover{
         display: none;
     }
+
+    /********************************concept page********************************/
+    #up .modal{
+        top: 30px;
+        left: 0;
+        width: 100%;
+    }
+
+    #up .modal .uxui{
+        margin: 120px 0;
+    }
+
+    #up .modal .uxui .list{
+        margin-top: 30px;
+    }
+
 
 }
 
