@@ -192,6 +192,10 @@ img{
     width: 62%;
 }
 
+#section1 ul > li .txt p{
+    font-size: 0.9rem;
+}
+
 #section1 ul > li:last-child{
     padding: 120px 0;
     background-color: #C25454;
